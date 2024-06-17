@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o header */
+header {
+    background-color: pink;
+    /* Cor de fundo destacada */
+    color: #fff;
+    /* Cor do texto */
+    padding: 2rem 0;
+    /* Espaçamento */
+    text-align: center;
+    /* Centralizar texto */
+    border-bottom: 5px solid purple;
+    /* Borda inferior */
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.main-header {
+    background-image: url('https://images.pexels.com/photos/5240637/pexels-photo-5240637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para a navegação */
+nav {
+    background: rgb(68, 2, 153);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid purple;
+    /* Borda inferior */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: purple;
+}
+
+/* Estilo para o select */
+/* #selecionarSessao {
+  margin: 1rem auto;
+  display: block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+} */
+
+/* Estilização geral do select
+.section-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align-last: center;
+}
+
+
+/* Estilo para as seções */
+section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra */
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Estilo para as listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #eee;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-left: 4px solid purple;
+    /* Borda esquerda */
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o footer */
+footer {
+    background: rgb(68, 2, 153);
+    /* Cor de fundo destacada */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    /* Espaçamento */
+    margin-top: 2rem;
+    border-top: 5px solid purple;
+    /* Borda superior */
+}
+
+footer nav {
+    margin-top: 1rem;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+footer nav a:hover {
+    background: purple;
+    /* Fundo dos links ao passar o mouse */
+    color: white;
+    border-radius: 5px;
+}
